@@ -1,11 +1,11 @@
 import pymongo
 import requests
 
-client = pymongo.MongoClient("mongodb+srv://sahityasaty16:Z6pKlZEVDnyB3r89@cluster0.tploxtx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = pymongo.MongoClient("mongodb+srv...")
 db = client.sample_mflix
 collection = db.movies
 
-hf_token = "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"
+hf_token = ""
 embedding_url = "https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2"
 
 query = "war"
